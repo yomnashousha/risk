@@ -51,7 +51,6 @@ class Board(object):
     # ====================== #
     # == Neighbor Methods == #
     # ====================== #   
-
     def neighbors(self, territory_id):
         """
         Create a generator of all territories neighboring a given territory.
